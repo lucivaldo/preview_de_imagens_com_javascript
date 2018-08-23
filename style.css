@@ -25,5 +25,5 @@ body {
 #image {
 	border: 1px solid #999;
 	display: none;
-	text-align: center;
+	padding: 0.25rem;
 }

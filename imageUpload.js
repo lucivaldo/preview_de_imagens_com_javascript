@@ -8,7 +8,7 @@ const getReadedFile = function (reader, preview) {
 		preview.appendChild(img);
 
 		// Opcional
-		preview.style.display = "block";
+		preview.style = "display: flex; justify-content: center; align-items: center";
 	}
 }
 
