@@ -2,8 +2,9 @@ const getReadedFile = function (reader, preview) {
 	return function () {
 		const img = document.createElement("img");
 		img.src = reader.result;
-		img.style = "width: 400px; height: auto";
+		img.style = "width: 100%; height: auto";
 
+		preview.innerHTML = "";
 		preview.appendChild(img);
 
 		// Opcional
